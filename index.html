@@ -22,15 +22,24 @@
 	background-color:red ;
     border-radius: 50%;
     bottom: 300px;
-    top: 150px;
+    top: 90px;
     position:relative;
-	left: 100px;
+	left: 80px;
 	margin-top:10px;
 	height:290px;
 	width : 290px;
    
     } 
 	
+	figcaption {
+  color: black;
+  font-style: Ariel;
+  font-size: 24px;
+  padding: 2px;
+  text-align: left;
+  margin-top:110px;
+  margin-left:120px;
+}
 	    
 
     #Home:hover {
@@ -54,7 +63,7 @@
      position: absolute;
      right: 80px;
      left: 450px;
-     top: 180px;
+     top: 160px;
     }
 	
    
@@ -64,7 +73,7 @@
     left: 450px;
     width: 600px;
     height: 250px;
-    top: 250px;
+    top: 230px;
     } 
 
     h3.favourite{
@@ -84,6 +93,17 @@
     height: 250px;
     top: 350px;
    } 
+   
+   
+   
+    div.TV-shows{
+    position: absolute;
+    right: 30px;
+    left: 450px;
+    width: 700px;
+    height: 250px;
+    top: 450px;
+   } 
   
   
     div.Movies{
@@ -91,37 +111,23 @@
     right: 30px;
     left: 450px;
     width: 700px;
-    height: 250px;
-    top: 450px;
-  
+    height: 150px;
+    top: 650px;
+   
    } 
-  
-    div.TV-shows{
+   
+    div.Food{
     position: absolute;
     right: 30px;
     left: 450px;
     width: 700px;
-    height: 250px;
-    top: 630px;
+    height: 150px;
+    top: 550px;
+   
    } 
+  
 
-   h3.courses{
-   position: absolute;
-   right: 30px;
-   left: 450px;
-   width: 500px;
-   height: 25px;
-   top: 710px;
-   }
-  
-    div.courses {
-    position: absolute;
-    right: 30px;
-    left: 450px;
-    width: 700px;
-    height: 250px;
-    top: 760px;
-    } 
+    
   
     h4.movies{
     color:#186A9C;
@@ -132,29 +138,52 @@
     height: 25px;
     top: 820px;
     }
+	
+	 h3.places{
+    position: absolute;
+    right: 30px;
+    left: 450px;
+    width: 500px;
+    height: 25px;
+    top: 680px;
+  }
+  
+  
+  
+   h3.courses{
+   position: absolute;
+   right: 30px;
+   left: 450px;
+   width: 500px;
+   height: 25px;
+   top: 890px;
+   }
+  
+	
+	div.courses {
+    position: absolute;
+    right: 30px;
+    left: 450px;
+    width: 700px;
+    height: 250px;
+    top: 950px;
+    } 
 
 
-  .courses_image {
+   .courses_image {
   
     position: absolute;
     right: 30px;
     left: 950px;
     width: 160px;
     height: 160px;
-    top: 680px;
+    top: 900px;
     shape: square;
   
   } 
-
-
-    h3.places{
-    position: absolute;
-    right: 30px;
-    left: 450px;
-    width: 500px;
-    height: 25px;
-    top: 870px;
-  }
+  
+  
+ 
   
 
 
@@ -162,7 +191,7 @@
 	
 </head>
 	
-	<body style="background-color:#CEE1E5;"/ > 
+	<body style="background-color:#F4F4E1;"/ > 
 	
 	<h1>  Geetanjali Kulkarni </h1>
 	
@@ -177,17 +206,24 @@
 	</div>
 	</div>
 	</div>
+	
 	<img class="circular--portrait" src="geet_pic.jpg" alt=" Self pic" style="width:280px" /> 
-	 <br>
-	  	
+	
+	<figcaption> Geetanjali Kulkarni</figcaption>
+	
+	<br>
+	  
+    	  
 	
     <h2>  About me</h2>
-    <div class="introduction"> I am pursuing a master's program in Computer Science. This is my second semester. I have been learning so many thing.</div>
+    <div class="introduction">  I have completed my undergrad in electronics engineering Shivaji University, India.
+                            	Now, I am pursuing a master's program in Computer Science from Wayne State University.
+                                I have been learning so many things and also, I enjoy facing challenges.</div>
 	
 	
-	<h3 class="favourite">Favorites</h3> 
+	<h3 class="favourite">My Favorites</h3> 
     
-	<div class="Sports"> My favorite sport is Cricket. I also like to play badminton and basketball. 
+	<div class="Sports"> Sports
 					
 	<ul>
     <li id="Cricket">
@@ -204,32 +240,10 @@
     </li>
 	</div>		
 
-	<div class="Movies"> My favorite movies 
-					
-	<ul>
-    <li id="Marvel Movies">
-	Marvel Movies
 	
-    </li>
-	<h4> Click on the below link for more information -
-	<a href="https://www.marvel.com/"   target="_blank" > Visit_Marvel.com </a></h4>
-	
-	
-    <li id="Titanic">
-	Titanic
-    </li>
-	
-	<li id="Serendipity">
-	
-	Serendipity
-    </li>
-		
-    
-	 
-    </div>
 	<br>
 	
-	<div class="TV-shows"> My favorite TV shows 
+	<div class="TV-shows"> TV shows 
 					
 	<ul>
     <li id="Gilmore Girls">
@@ -245,6 +259,39 @@
 	Friends
     </li>
 	</div>		
+	
+	<div class="Food"> Food
+					
+	<ul>
+    <li id="Indian">
+	
+	Indian
+    </li>
+	
+    <li id="Italian">
+	Italian
+    </li>
+	
+	<li id="Mexican">
+	Mexican
+    </li>
+	</div>		
+	
+	<br>
+	
+	<div class="Movies"> Movies
+					
+	
+    <a href="https://www.marvel.com/"  style="color: blue"   target="_blank" > Marvel </a>
+	
+    <a href="https://en.wikipedia.org/wiki/Titanic_(1997_film)"  style="color: blue" target="_blank" > Titanic </a>
+	
+	<a href="https://www.imdb.com/title/tt0240890/"  style="color: blue"  target="_blank" > Serendipity </a>
+	
+	  
+	 </div>
+	 
+	 <br>
 						
     <h3 class="courses"> Courses </h3> 
 	
@@ -261,8 +308,6 @@
 	</ul>
 	
 	
-	<h4> For more information about the courses, please click on the link courses above.</h4>
-	
 	</div>
 	<br>
 	
@@ -270,7 +315,7 @@
 	
 	
 	
-	<h3 class= "places" >Favorite places from USA</h3>
+	<h3 class= "places" >Places from USA</h3>
         <table style= "width:50%"; position: "relative";>
              <tr align= center; >
              <th>States</th>
